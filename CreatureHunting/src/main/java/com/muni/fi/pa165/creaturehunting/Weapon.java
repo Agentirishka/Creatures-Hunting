@@ -23,13 +23,20 @@ public class Weapon implements Serializable {
     private String name;
     private String description;
 
+    private int weight;
+    
     public Long getId() {
         return id;
     }
     
     public String getName()
     {
+<<<<<<< HEAD
        return "Irishka"; 
+=======
+        return "Aubrey";
+        
+>>>>>>> branch 'master' of https://github.com/Agentirishka/Creatures-Hunting.git
     }
 
     public void setId(Long id) {
