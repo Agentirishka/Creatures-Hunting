@@ -27,6 +27,12 @@ public class Weapon implements Serializable {
     public Long getId() {
         return id;
     }
+    
+    public String getName()
+    {
+        return "Aubrey";
+        
+    }
 
     public void setId(Long id) {
         this.id = id;
