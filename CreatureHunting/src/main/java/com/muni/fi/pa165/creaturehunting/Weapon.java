@@ -22,6 +22,8 @@ public class Weapon implements Serializable {
     private Long id;
     private String name;
 
+    private int weight;
+    
     public Long getId() {
         return id;
     }
